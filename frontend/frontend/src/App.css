@@ -1,0 +1,66 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #3cc19e;
+}
+
+.dropzone {
+  border: 2px dashed #999;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px auto;
+  width: 300px;
+  transition: border-color 0.2s ease;
+}
+
+.dropzone:hover {
+  border-color: #555;
+}
+
+.dropzone.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.loading {
+  font-style: italic;
+  color: #777;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.text-list {
+  list-style-type: decimal;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: black;
+}
+
+.text-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  color: black; 
+}
+
+.text-list li:last-child {
+  border-bottom: none;
+}
